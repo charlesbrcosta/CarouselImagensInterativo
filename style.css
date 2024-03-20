@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-black: #000;
+    --color-white: #eee;
+    --color-orange: #f1683a;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    background-color: var(--color-black) ;
+    color: var(--color-white);
+
+    & a {
+        text-decoration: none;
+    }
+
+    header {
+        width: 1140px;
+        max-width: 80%;
+        margin: auto;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 100;
+    
+        & a{
+            color: var(--color-white);
+            margin-right: 40px;
+        }      
+    }
+
+    & .slider-transaction{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin-top: -50px;
+        position: relative;
+
+        & .list {
+            & .item {
+                position: absolute;
+                inset: 0 0 0 0;
+                
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                & .content {
+                    position: absolute;
+                    top: 20%;
+                    width: 1140px;
+                    max-width: 80%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    padding-right: 30%;
+                    box-sizing: border-box;
+                    color: var(--color-white);
+                    text-shadow: 0 5px 10px var(--color-black);
+
+                    & .author {
+                        font-weight: 700;
+                        letter-spacing: 10px;
+                    }
+
+                    & .title, & .topic {
+                        font-weight: 700;
+                        font-size: 5em;
+                        list-style: 1.3em; /* entender o motivo do list-style já que nao tem ul ou ol no html*/
+                    }
+
+                    & .topic {
+                        color: var(--color-orange);
+                    }
+
+                    & .buttons {
+                        display: grid;
+                        grid-template-columns: repeat(2, 130px);
+                        grid-template-rows: 40px;
+                        gap: 5px;
+                        margin-top: 20px;
+                        
+                        & button {
+                            border: none;
+                            background-color: var(--color-white);
+                            letter-spacing: 3px;
+                            font-family: 'Poppins', sans-serif;
+                            font-weight: 500;
+                            cursor: pointer;
+                        }
+
+                        & button:nth-child(2){
+                            background-color: transparent;
+                            color: var(--color-white);
+                            border: 1px solid var(--color-white);
+                        }
+                    }
+                }                
+            }
+        }
+
+        & .thumbnail {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            width: max-content;
+            z-index: 100;
+            display: flex;
+            gap: 20px;
+
+            & .item {
+                width: 150px;
+                height: 220px;
+                flex-shrink: 0;
+                position: relative;
+
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
