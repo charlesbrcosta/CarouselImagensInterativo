@@ -100,7 +100,7 @@ header a{
     gap: 5px;
     margin-top: 20px;
 }
-                    
+
 .carousel .list .item .buttons button {
     border: none;
     background-color: var(--color-white);
@@ -351,5 +351,9 @@ header a{
 
     .carousel .list .item .content .title {
         font-size: 30px;
+    }
+
+    .carousel .list .item .content .topic {
+        font-size: 3em;
     }
 }
