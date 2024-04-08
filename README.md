@@ -10,6 +10,12 @@ Este é um projeto de carrossel desenvolvido utilizando HTML, CSS e JavaScript, 
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
+## :computer: Visão Geral do Projeto
+
+### Interface do Usuário
+
+<img src="./assets/screenShot/demoProjeto.png"  alt="Imagem do projeto." width="1300">
+
 ## :hammer: Funcionalidades
 
 - `Carrossel de Imagens e Informações:` O projeto inclui um carrossel que exibe imagens de diferentes animais, juntamente com informações sobre eles, como autor, título, tópico e uma descrição detalhada.
@@ -22,19 +28,14 @@ Este é um projeto de carrossel desenvolvido utilizando HTML, CSS e JavaScript, 
 
 ## :mag: Demonstração
 
-Para uma experiência completa e visual do projeto em funcionamento, assista ao vídeo demonstrativo abaixo:
+Para uma experiência completa e visual do projeto em funcionamento, você pode acessar a demonstração interativa do projeto, [clique aqui.](https://charlesbrcosta.github.io/CarouselImagensInterativo/)
 
-![Demonstração](./Demo/carrosel.gif)
-
-Além disso, você pode acessar a demonstração interativa do projeto, [clique aqui.](https://charlesbrcosta.github.io/CarouselImagensInterativo/)
-
-
-## Como Utilizar
+## :open_file_folder: Como Utilizar
 
 1. Clone o repositório em seu ambiente de desenvolvimento.
 2. Abra o arquivo index.html em seu navegador preferido.
 3. Utilize os botões de navegação "Próximo" e "Anterior" para explorar as diferentes imagens e informações no carrossel.
 
-## Autor
+## :student: Autor
 
 Este projeto foi desenvolvido, com base no tutorial criado por Luv Dev no YouTube, como parte do aprendizado e prática de efeitos de carrossel em desenvolvimento web.
