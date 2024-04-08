@@ -24,7 +24,7 @@ Este é um projeto de carrossel desenvolvido utilizando HTML, CSS e JavaScript, 
 
 Para uma experiência completa e visual do projeto em funcionamento, assista ao vídeo demonstrativo abaixo:
 
-![Demonstração](./videoDemo/projeto.mp4)
+![Demonstração](./Demo/carrosel.gif)
 
 Além disso, você pode acessar a demonstração interativa do projeto, [clique aqui.](https://charlesbrcosta.github.io/CarouselImagensInterativo/)
 
